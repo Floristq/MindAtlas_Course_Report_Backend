@@ -1,4 +1,4 @@
-# MindAtlas_Course_Report
+# MindAtlas_Course_Report_Backend
 
 This is the backend for the course report.
 
