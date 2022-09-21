@@ -6,7 +6,7 @@ This is the backend for the course report.
 
 To get this running, you need to:
 
-1. Prepare a MYSQL database using the scripts provided;
+1. Prepare a MYSQL database using the scripts provided(please remember to change database credentials so that the program can login into your local database);
 
 
 2. Install node modules both for 'frontend' and 'backend' folder:
@@ -25,7 +25,7 @@ npm install mysql2
 npm run server
 ```
 
-5. Open terminal in 'backend' folder and type:
+5. Open terminal in 'frontend' folder and type:
 ```
 npm run start
 ```
