@@ -6,7 +6,7 @@ CREATE DATABASE codetest2;
 USE codetest2;
 
 -- ----------------------------
--- Table structure for usertable
+-- Table structure for users
 -- ----------------------------
 DROP TABLE IF EXISTS `users`;
 CREATE TABLE `users`  (
@@ -32,7 +32,7 @@ INSERT INTO users (firstname, surname) VALUES ("Shuhrat", "Kessikbayer");
 INSERT INTO users (firstname, surname) VALUES ("James", "Porter");
 
 -- ----------------------------
--- Table structure for userfieldname
+-- Table structure for courses
 -- ----------------------------
 DROP TABLE IF EXISTS `courses`;
 CREATE TABLE `courses`  (
@@ -48,7 +48,7 @@ INSERT INTO courses(description) VALUES ('Drone lessons');
 INSERT INTO courses(description) VALUES ('Shooting range rules');
 
 -- ----------------------------
--- Table structure for userdata
+-- Table structure for enrolment data
 -- ----------------------------
 DROP TABLE IF EXISTS `enrolments`;
 CREATE TABLE `enrolments`  (
